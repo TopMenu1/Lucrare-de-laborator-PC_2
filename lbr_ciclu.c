@@ -7,7 +7,6 @@ int main() {
     printf("Introduceti n (pozitia numarului Fibonacci): ");
     scanf("%d", &n);
 
-    // Tratăm cazurile de bază
     if (n < 0) {
         printf("Va rugam sa introduceti un numar natural.\n");
     } else if (n == 0) {
